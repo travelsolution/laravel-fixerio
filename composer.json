@@ -1,5 +1,5 @@
 {
-    "name": "ranium/laravel-fixerio",
+    "name": "travelsolution/laravel-fixerio",
     "description": "Laravel package/client for fixer.io api, a foreign exchange rates and currency conversion API.",
     "type": "library",
     "license": "MIT",
@@ -9,8 +9,14 @@
             "email": "abbas@ranium.in"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/travelsolution/fixerio-php-client"
+        }
+    ],
     "require": {
-        "ranium/fixerio-php-client": "1.*"
+        "travelsolution/fixerio-php-client": "2.0.0"
     },
     "autoload": {
         "psr-4": {
